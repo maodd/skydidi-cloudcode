@@ -1,0 +1,2 @@
+#!/bin/sh
+docker build . --build-arg GITHUB_TOKEN=e41e93eb238b8d90fc064ef82284df8098159833
