@@ -15,4 +15,4 @@ RUN apk del git
 
 WORKDIR /parse
 
-ENTRYPOINT ["cat"]
+CMD ["cat"]
