@@ -15,4 +15,4 @@ RUN apk del git
 
 WORKDIR /parse
 
-CMD ["cat"]
+CMD ["sleep", "1d"]
