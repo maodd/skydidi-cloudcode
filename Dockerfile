@@ -15,4 +15,4 @@ RUN apk del git
 
 WORKDIR /parse
 
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+ENTRYPOINT ["cat"]
