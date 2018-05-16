@@ -14,3 +14,5 @@ VOLUME /parse/cloud
 RUN apk del git
 
 WORKDIR /parse
+
+ENTRYPOINT ["tail", "-f", "/dev/null"]
